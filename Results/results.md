@@ -6,8 +6,8 @@ How long does it take manufacturers to issue a recall after customer complaints 
 This measures **time-to-action** (filing → recall), not negligence or fault — an important distinction kept explicit throughout.
 
 ## Data Sources
-- **Complaints:** [NHTSA FLAT_CMPL](https://static.nhtsa.gov/odi/ffdd/cmpl/FLAT_CMPL.zip) — every safety complaint filed since 1995
-- **Recalls:** [NHTSA FLAT_RCL](https://static.nhtsa.gov/odi/ffdd/rcl/FLAT_RCL.zip) — every official recall campaign on record
+- **Complaints:** [NHTSA FLAT_CMPL](https://www.nhtsa.gov/nhtsa-datasets-and-apis#complaints) — every safety complaint filed since 1995
+- **Recalls:** [NHTSA FLAT_RCL](https://www.nhtsa.gov/nhtsa-datasets-and-apis#recalls) — every official recall campaign on record
 - Public, bulk-downloadable, no API key required
 
 ## Pipeline
@@ -38,7 +38,8 @@ Unscoped baseline across the full 5-year `complaint_recall_pairs_5` table — no
 | Toyota | 380 | 800 | 1262 | 1580 | 676,935 |
 | Honda | 377 | 788 | 1233 | 1571 | 621,375 |
 
-![Company lag results] <img width="968" height="684" alt="Screenshot 2026-08-19 130646" src="https://github.com/user-attachments/assets/b8a65642-e33f-4cfa-b9c3-e2c36f57e8f5" />
+<img width="968" height="684" alt="Screenshot 2026-08-19 130646" src="https://github.com/user-attachments/assets/b8a65642-e33f-4cfa-b9c3-e2c36f57e8f5" />
+
 <img width="899" height="792" alt="Screenshot 2026-08-19 175252" src="https://github.com/user-attachments/assets/cbb29886-0db3-470a-87f7-9fd6f2d0f770" />
 
 
@@ -47,14 +48,15 @@ Honda is fastest (788 days median), GM slowest (855 days) — a 68-day spread (~
 
 ### 2. Component Lag — Does Defect Type Matter More Than Manufacturer?
 
-![Component lag results]<img width="877" height="630" alt="Screenshot 2026-08-19 175434" src="https://github.com/user-attachments/assets/84d8276f-339b-4a4c-bbac-c099a49660ff" />
+<img width="877" height="630" alt="Screenshot 2026-08-19 175434" src="https://github.com/user-attachments/assets/84d8276f-339b-4a4c-bbac-c099a49660ff" />
 
 
 VEHICLE SPEED CONTROL has the shortest median lag (693 days); STEERING the longest (858 days) — a 165-day gap, more than double the spread seen between companies. **Defect type predicts response time better than manufacturer identity does.** Caveat: VEHICLE SPEED CONTROL's pair count (164,034) is much thinner than components like ELECTRICAL SYSTEM (3.27M pairs).
 
 ### 3. Company × Component Cross-Tab
 
-![Cross-tab results]<img width="720" height="830" alt="Screenshot 2026-08-19 232716" src="https://github.com/user-attachments/assets/c40b5bf8-00bb-403f-b64f-082417ded2cb" />
+<img width="720" height="830" alt="Screenshot 2026-08-19 232716" src="https://github.com/user-attachments/assets/c40b5bf8-00bb-403f-b64f-082417ded2cb" />
+
 <img width="578" height="204" alt="image" src="https://github.com/user-attachments/assets/b70c0140-e314-422b-9503-6e846e095f99" />
 
 
@@ -63,7 +65,7 @@ Tests whether slow/fast response is a company-wide trait or specific to certain 
 
 ### 4. Complaint Severity by Component
 
-![Severity by component]<img width="1141" height="621" alt="Screenshot 2026-08-20 180626" src="https://github.com/user-attachments/assets/f87e037b-e28b-416b-82be-598012dc905e" />
+<img width="1141" height="621" alt="Screenshot 2026-08-20 180626" src="https://github.com/user-attachments/assets/f87e037b-e28b-416b-82be-598012dc905e" />
 
 
 - **AIR BAGS:** highest crash rate by far — 25.92% (40,298 crashes), despite not having the highest complaint volume
@@ -78,7 +80,7 @@ Tests whether slow/fast response is a company-wide trait or specific to certain 
 | No crash | 11,974,367 | 832 | 859.5 |
 | Crash involved | 861,999 | 854 | 874.9 |
 
-![Severity vs lag] <img width="1134" height="605" alt="Screenshot 2026-08-19 194634" src="https://github.com/user-attachments/assets/d65b7457-092d-4167-b71a-b965262aeaa9" />
+<img width="1134" height="605" alt="Screenshot 2026-08-19 194634" src="https://github.com/user-attachments/assets/d65b7457-092d-4167-b71a-b965262aeaa9" />
 
 <img width="1273" height="453" alt="Screenshot 2026-08-19 194836" src="https://github.com/user-attachments/assets/e0a6622e-25e7-4c63-b554-b5ec6127b761" />
 
@@ -87,7 +89,8 @@ Crash-involved complaints did **not** resolve faster — if anything, marginally
 
 ### 6. Has Response Time Changed Over the Years?
 
-![Time trend]<img width="477" height="712" alt="Screenshot 2026-08-19 225752" src="https://github.com/user-attachments/assets/d6b50baa-1c8d-470f-af2c-7ed75ad77601" />
+<img width="477" height="712" alt="Screenshot 2026-08-19 225752" src="https://github.com/user-attachments/assets/d6b50baa-1c8d-470f-af2c-7ed75ad77601" />
+
 <img width="405" height="694" alt="Screenshot 2026-08-19 225929" src="https://github.com/user-attachments/assets/2fe732ad-e163-4b2a-9ba1-0fcd6e4d3559" />
 
 
@@ -98,21 +101,21 @@ Yearly trend, explicitly excluding 2022+ to avoid right-censoring bias — recen
 
 **94.32%** of complaints (1,055,678 / 1,119,288) fall within 5 years of a matching recall for the same manufacturer+component.
 
-![Match rate results]<img width="1184" height="597" alt="Screenshot 2026-08-20 181525" src="https://github.com/user-attachments/assets/3cc00845-182c-4c92-811a-9e449cc64561" />
+<img width="1184" height="597" alt="Screenshot 2026-08-20 181525" src="https://github.com/user-attachments/assets/3cc00845-182c-4c92-811a-9e449cc64561" />
 
 
 **Important framing:** this measures how often a complaint falls within the "shadow" of a manufacturer's recall activity for that component within a 5-year window — not individual complaint-to-recall causation. Frequently-recalled components (AIR BAGS, ELECTRICAL SYSTEM) have near-continuous coverage, so almost every complaint lands inside some qualifying window.
 
 ### 8. Complaint Spike Detection
 
-![Spike detection results]<img width="928" height="359" alt="image" src="https://github.com/user-attachments/assets/35e043d4-76af-409a-8c29-575f932da515" />
+<img width="928" height="359" alt="image" src="https://github.com/user-attachments/assets/35e043d4-76af-409a-8c29-575f932da515" />
 
 
 Built a rolling 6-month trailing average of complaint volume per manufacturer+component using SQL window functions, flagging months where volume was ≥2x the trailing average (with a minimum baseline to avoid flagging noise on small counts). Measured what % of recall campaigns were preceded by a detected spike in the 6 months prior.
 
 ### 9. AIR BAGS Root-Cause Classification (Text Analysis)
 
-![AIR BAGS classification]<img width="370" height="191" alt="Screenshot 2026-08-20 010530" src="https://github.com/user-attachments/assets/36e76518-1375-4e21-bf62-113ff8a97511" />
+<img width="370" height="191" alt="Screenshot 2026-08-20 010530" src="https://github.com/user-attachments/assets/36e76518-1375-4e21-bf62-113ff8a97511" />
 
 
 Classified 1,006 distinct AIR BAGS recall campaigns by defect cause using iterative SQL keyword matching, refined through 3 passes and random-sample validation of unclassified rows.
