@@ -141,7 +141,8 @@ Inflator rupture/explosion — the Takata failure mode, the largest automotive r
 - Scoped to top 5 manufacturers × top 10 components for computational tractability — not the full ~40-60 OEM × ~50 component universe
 - 5-year lookback window chosen after a 12-month window was found to truncate the true lag distribution
 - Recall scale (units affected / POTAFF) was scoped out — the field wasn't retained during initial data load; documented as a deliberate limitation, not an oversight
-- Full reasoning for every methodology decision is logged in [`NHTSA Recall Lag Project.docx`](../NHTSA%20Recall%20Lag%20Project.docx)
+- Full reasoning for every methodology decision is logged in [`decision_log.md`](../decision_log.md
+  )
 
 ## Tech Stack
 **Python** (pandas, RapidFuzz) · **SQL Server** (window functions, CTEs, dynamic views, index design) · **Power BI** (in progress)
