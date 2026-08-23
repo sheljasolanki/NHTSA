@@ -115,7 +115,6 @@ Built a rolling 6-month trailing average of complaint volume per manufacturer+co
 
 ### 9. AIR BAGS Root-Cause Classification (Text Analysis)
 
-<img width="370" height="191" alt="Screenshot 2026-08-20 010530" src="https://github.com/user-attachments/assets/36e76518-1375-4e21-bf62-113ff8a97511" />
 
 
 Classified 1,006 distinct AIR BAGS recall campaigns by defect cause using iterative SQL keyword matching, refined through 3 passes and random-sample validation of unclassified rows.
