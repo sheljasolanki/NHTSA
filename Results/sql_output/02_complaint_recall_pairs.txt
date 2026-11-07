@@ -1,0 +1,10 @@
+Warning: Null value is eliminated by an aggregate or other SET operation.
+item|n
+----|-
+v2 pairs (all OEMs, all components)|397145
+v2 distinct complaints matched|239908
+v2 campaigns with >=1 prior complaint|4091
+v2 campaigns in lag window (recall >= FIRST_RECALL_DATE)|6418
+avg_campaigns_per_matched_complaint
+-----------------------------------
+1.594537

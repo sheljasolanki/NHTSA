@@ -1,0 +1,524 @@
+{
+  "pairs": 397145,
+  "matched_complaints": 239908,
+  "pairs_per_complaint": 1.66,
+  "campaigns_in_window": 6418,
+  "campaigns_with_prior_complaint": 3246,
+  "pct_campaigns_with_prior_complaint": 50.6,
+  "median_lag_first_days": 766,
+  "median_lag_first_ci": [
+    711,
+    831
+  ],
+  "median_lag_signal_days": 898,
+  "median_lag_signal_ci": [
+    835,
+    950
+  ],
+  "signal_campaigns": 2368,
+  "p25_lag_first_days": 260,
+  "p75_lag_first_days": 1889,
+  "p90_lag_first_days": 3249,
+  "median_prior_complaints": 10.0,
+  "pct_lag_over_5y": 26.0,
+  "campaigns_at_lookback_cap": 192,
+  "lookback_sensitivity": [
+    {
+      "lookback_cap_years": 1,
+      "campaigns": 2955,
+      "median_lag_first_days": 302.0
+    },
+    {
+      "lookback_cap_years": 2,
+      "campaigns": 3131,
+      "median_lag_first_days": 526.0
+    },
+    {
+      "lookback_cap_years": 5,
+      "campaigns": 3232,
+      "median_lag_first_days": 730.0
+    },
+    {
+      "lookback_cap_years": 10,
+      "campaigns": 3246,
+      "median_lag_first_days": 766.0
+    }
+  ],
+  "oem_kruskal_p": 0.02258,
+  "oem_fastest": {
+    "oem": "CHRYSLER",
+    "median_lag_days": 629.0
+  },
+  "oem_slowest": {
+    "oem": "FORD",
+    "median_lag_days": 892.0
+  },
+  "oem_spread_days": 263.0,
+  "component_kruskal_p": 0.0,
+  "component_fastest": {
+    "component": "SERVICE BRAKES",
+    "median_lag_days": 478.0
+  },
+  "component_slowest": {
+    "component": "VEHICLE SPEED CONTROL",
+    "median_lag_days": 1752.0
+  },
+  "component_spread_days": 1274.0,
+  "eta_sq_oem": 0.0088,
+  "eta_sq_component": 0.0506,
+  "total_complaints": 1550612,
+  "total_deaths": 4534,
+  "total_injured": 83878,
+  "severity_top_deaths_per_1000": [
+    {
+      "COMPONENT_CLEAN": "TIRES",
+      "deaths_per_1000": 13.84,
+      "deaths": 490,
+      "complaints": 35396
+    },
+    {
+      "COMPONENT_CLEAN": "SEAT BELTS",
+      "deaths_per_1000": 11.89,
+      "deaths": 446,
+      "complaints": 37501
+    },
+    {
+      "COMPONENT_CLEAN": "CHILD SEAT",
+      "deaths_per_1000": 11.31,
+      "deaths": 13,
+      "complaints": 1149
+    },
+    {
+      "COMPONENT_CLEAN": "EQUIPMENT",
+      "deaths_per_1000": 8.74,
+      "deaths": 147,
+      "complaints": 16816
+    },
+    {
+      "COMPONENT_CLEAN": "VEHICLE SPEED CONTROL",
+      "deaths_per_1000": 8.07,
+      "deaths": 667,
+      "complaints": 82693
+    }
+  ],
+  "severity_top_total_deaths": [
+    {
+      "COMPONENT_CLEAN": "AIR BAGS",
+      "deaths": 1057
+    },
+    {
+      "COMPONENT_CLEAN": "VEHICLE SPEED CONTROL",
+      "deaths": 667
+    },
+    {
+      "COMPONENT_CLEAN": "TIRES",
+      "deaths": 490
+    },
+    {
+      "COMPONENT_CLEAN": "SEAT BELTS",
+      "deaths": 446
+    },
+    {
+      "COMPONENT_CLEAN": "ELECTRICAL SYSTEM",
+      "deaths": 400
+    }
+  ],
+  "severity_top_crash_pct": [
+    {
+      "COMPONENT_CLEAN": "AIR BAGS",
+      "pct_crash": 25.56
+    },
+    {
+      "COMPONENT_CLEAN": "VEHICLE SPEED CONTROL",
+      "pct_crash": 16.99
+    },
+    {
+      "COMPONENT_CLEAN": "SEAT BELTS",
+      "pct_crash": 13.91
+    }
+  ],
+  "severity_top_fire_pct": [
+    {
+      "COMPONENT_CLEAN": "ELECTRICAL SYSTEM",
+      "pct_fire": 7.3
+    },
+    {
+      "COMPONENT_CLEAN": "SEATS",
+      "pct_fire": 5.42
+    },
+    {
+      "COMPONENT_CLEAN": "ENGINE",
+      "pct_fire": 4.77
+    }
+  ],
+  "severity_tiers": [
+    {
+      "SEVERITY_TIER": "1 Fatal",
+      "complaints": 2707,
+      "recalled_2y": 171,
+      "pct_recalled_2y": 6.32
+    },
+    {
+      "SEVERITY_TIER": "2 Injury",
+      "complaints": 61653,
+      "recalled_2y": 4762,
+      "pct_recalled_2y": 7.72
+    },
+    {
+      "SEVERITY_TIER": "3 Crash, no injury",
+      "complaints": 52398,
+      "recalled_2y": 3676,
+      "pct_recalled_2y": 7.02
+    },
+    {
+      "SEVERITY_TIER": "4 Fire, no crash",
+      "complaints": 34261,
+      "recalled_2y": 2940,
+      "pct_recalled_2y": 8.58
+    },
+    {
+      "SEVERITY_TIER": "5 No crash, fire or injury",
+      "complaints": 1429613,
+      "recalled_2y": 117947,
+      "pct_recalled_2y": 8.25
+    }
+  ],
+  "severity_chi2_p": 0.0,
+  "median_days_crash": 586.0,
+  "median_days_no_crash": 510.0,
+  "n_crash_recalled": 13282,
+  "n_no_crash_recalled": 199476,
+  "mw_crash_p": 0.0,
+  "mw_crash_effect": -0.076149,
+  "trend_spearman_rho": -0.027931,
+  "trend_spearman_p": 0.904339,
+  "trend_first_last": [
+    {
+      "RECALL_YEAR": 2005,
+      "median_lag_first": 600.0,
+      "campaigns": 67
+    },
+    {
+      "RECALL_YEAR": 2025,
+      "median_lag_first": 823.0,
+      "campaigns": 276
+    }
+  ],
+  "recall_rate_complaints": 1366035,
+  "recall_rate_1y": 5.38,
+  "recall_rate_2y": 8.04,
+  "recall_rate_5y": 12.26,
+  "recall_rate_by_component": [
+    {
+      "COMPONENT_CLEAN": "AIR BAGS",
+      "pct_recalled_5y": 44.65
+    },
+    {
+      "COMPONENT_CLEAN": "STEERING",
+      "pct_recalled_5y": 14.46
+    },
+    {
+      "COMPONENT_CLEAN": "ELECTRICAL SYSTEM",
+      "pct_recalled_5y": 13.73
+    },
+    {
+      "COMPONENT_CLEAN": "POWER TRAIN",
+      "pct_recalled_5y": 11.91
+    },
+    {
+      "COMPONENT_CLEAN": "SUSPENSION",
+      "pct_recalled_5y": 10.53
+    },
+    {
+      "COMPONENT_CLEAN": "VEHICLE SPEED CONTROL",
+      "pct_recalled_5y": 8.38
+    },
+    {
+      "COMPONENT_CLEAN": "ENGINE",
+      "pct_recalled_5y": 8.0
+    },
+    {
+      "COMPONENT_CLEAN": "SERVICE BRAKES, HYDRAULIC",
+      "pct_recalled_5y": 7.05
+    },
+    {
+      "COMPONENT_CLEAN": "STRUCTURE",
+      "pct_recalled_5y": 6.44
+    },
+    {
+      "COMPONENT_CLEAN": "SERVICE BRAKES",
+      "pct_recalled_5y": 4.8
+    }
+  ],
+  "recall_rate_by_oem": [
+    {
+      "MFR_NAME_CLEAN": "BMW",
+      "pct_recalled_5y": 19.17
+    },
+    {
+      "MFR_NAME_CLEAN": "HONDA",
+      "pct_recalled_5y": 14.06
+    },
+    {
+      "MFR_NAME_CLEAN": "KIA",
+      "pct_recalled_5y": 14.0
+    },
+    {
+      "MFR_NAME_CLEAN": "CHRYSLER",
+      "pct_recalled_5y": 13.25
+    },
+    {
+      "MFR_NAME_CLEAN": "VOLKSWAGEN",
+      "pct_recalled_5y": 13.25
+    },
+    {
+      "MFR_NAME_CLEAN": "GENERAL MOTORS",
+      "pct_recalled_5y": 12.22
+    },
+    {
+      "MFR_NAME_CLEAN": "TOYOTA",
+      "pct_recalled_5y": 12.04
+    },
+    {
+      "MFR_NAME_CLEAN": "HYUNDAI",
+      "pct_recalled_5y": 11.92
+    },
+    {
+      "MFR_NAME_CLEAN": "FORD",
+      "pct_recalled_5y": 11.36
+    },
+    {
+      "MFR_NAME_CLEAN": "NISSAN",
+      "pct_recalled_5y": 6.94
+    }
+  ],
+  "spike_lift": [
+    {
+      "spike_context": "After a recent recall",
+      "month_type": "Normal month",
+      "months": 8493,
+      "months_followed_by_recall": 4747,
+      "pct_recall_next_6m": 55.89
+    },
+    {
+      "spike_context": "After a recent recall",
+      "month_type": "Spike month",
+      "months": 344,
+      "months_followed_by_recall": 201,
+      "pct_recall_next_6m": 58.43
+    },
+    {
+      "spike_context": "Organic (no recent recall)",
+      "month_type": "Normal month",
+      "months": 33710,
+      "months_followed_by_recall": 9098,
+      "pct_recall_next_6m": 26.99
+    },
+    {
+      "spike_context": "Organic (no recent recall)",
+      "month_type": "Spike month",
+      "months": 1096,
+      "months_followed_by_recall": 266,
+      "pct_recall_next_6m": 24.27
+    }
+  ],
+  "spike_after_recall": [
+    {
+      "context": "Recall in this or previous 2 months",
+      "months": 8837,
+      "pct_spike_months": 3.89
+    },
+    {
+      "context": "No recent recall",
+      "months": 34806,
+      "pct_spike_months": 3.15
+    }
+  ],
+  "spike_before_recall": [
+    {
+      "month_type": "Months with a recall announcement",
+      "months": 3548,
+      "pct_spike_in_prior_6m": 15.08
+    },
+    {
+      "month_type": "All eligible months (baseline)",
+      "months": 43643,
+      "pct_spike_in_prior_6m": 15.34
+    }
+  ],
+  "organic_spike_recall_pct": 24.27,
+  "normal_month_recall_pct": 26.99,
+  "spike_lift_ratio": 0.9,
+  "spike_fisher_p": 0.04847,
+  "organic_spike_months": 1096,
+  "airbag_categories": [
+    {
+      "CATEGORY": "Uncategorized",
+      "campaigns": 265,
+      "pct_campaigns": 26.2,
+      "units_affected": 21561504,
+      "pct_units": 14.4
+    },
+    {
+      "CATEGORY": "Inflator rupture / metal fragments",
+      "campaigns": 226,
+      "pct_campaigns": 22.3,
+      "units_affected": 72875856,
+      "pct_units": 48.6
+    },
+    {
+      "CATEGORY": "Occupant classification / sensor",
+      "campaigns": 162,
+      "pct_campaigns": 16.0,
+      "units_affected": 16152072,
+      "pct_units": 10.8
+    },
+    {
+      "CATEGORY": "Wiring / connector / clockspring",
+      "campaigns": 73,
+      "pct_campaigns": 7.2,
+      "units_affected": 14568109,
+      "pct_units": 9.7
+    },
+    {
+      "CATEGORY": "Assembly / fastener",
+      "campaigns": 56,
+      "pct_campaigns": 5.5,
+      "units_affected": 1555733,
+      "pct_units": 1.0
+    },
+    {
+      "CATEGORY": "Will not deploy (other cause)",
+      "campaigns": 54,
+      "pct_campaigns": 5.3,
+      "units_affected": 1988348,
+      "pct_units": 1.3
+    },
+    {
+      "CATEGORY": "Inadvertent deployment",
+      "campaigns": 49,
+      "pct_campaigns": 4.8,
+      "units_affected": 10733383,
+      "pct_units": 7.2
+    },
+    {
+      "CATEGORY": "Software / calibration",
+      "campaigns": 42,
+      "pct_campaigns": 4.2,
+      "units_affected": 6056011,
+      "pct_units": 4.0
+    },
+    {
+      "CATEGORY": "Cushion tear / fold",
+      "campaigns": 42,
+      "pct_campaigns": 4.2,
+      "units_affected": 1220909,
+      "pct_units": 0.8
+    },
+    {
+      "CATEGORY": "Cover / trim / emblem",
+      "campaigns": 29,
+      "pct_campaigns": 2.9,
+      "units_affected": 1646781,
+      "pct_units": 1.1
+    },
+    {
+      "CATEGORY": "Warning lamp / label / manual",
+      "campaigns": 14,
+      "pct_campaigns": 1.4,
+      "units_affected": 1522043,
+      "pct_units": 1.0
+    }
+  ],
+  "airbag_campaigns": 1012,
+  "origin_summary": [
+    {
+      "RECALL_ORIGIN": "Manufacturer-initiated",
+      "campaigns": 5528,
+      "pct_of_campaigns": 86.1,
+      "units_affected": 343297220,
+      "pct_of_units": 59.2,
+      "pct_with_prior_complaint": 45.3,
+      "pct_do_not_drive": 1.05
+    },
+    {
+      "RECALL_ORIGIN": "NHTSA-influenced",
+      "campaigns": 890,
+      "pct_of_campaigns": 13.9,
+      "units_affected": 236713791,
+      "pct_of_units": 40.8,
+      "pct_with_prior_complaint": 83.4,
+      "pct_do_not_drive": 5.51
+    }
+  ],
+  "lag_by_origin": [
+    {
+      "RECALL_ORIGIN": "Manufacturer-initiated",
+      "campaigns": 2504,
+      "median_lag_first": 568.0,
+      "median_prior_complaints": 6.0,
+      "median_units_affected": 19126.0
+    },
+    {
+      "RECALL_ORIGIN": "NHTSA-influenced",
+      "campaigns": 742,
+      "median_lag_first": 1772.5,
+      "median_prior_complaints": 51.0,
+      "median_units_affected": 94597.0
+    }
+  ],
+  "origin_lag_p": 0.0,
+  "origin_complaints_p": 0.0,
+  "origin_by_oem": [
+    {
+      "MFR_NAME_CLEAN": "HYUNDAI",
+      "campaigns": 265,
+      "pct_nhtsa_influenced": 21.1
+    },
+    {
+      "MFR_NAME_CLEAN": "FORD",
+      "campaigns": 979,
+      "pct_nhtsa_influenced": 20.7
+    },
+    {
+      "MFR_NAME_CLEAN": "HONDA",
+      "campaigns": 323,
+      "pct_nhtsa_influenced": 18.3
+    },
+    {
+      "MFR_NAME_CLEAN": "KIA",
+      "campaigns": 187,
+      "pct_nhtsa_influenced": 16.6
+    },
+    {
+      "MFR_NAME_CLEAN": "CHRYSLER",
+      "campaigns": 732,
+      "pct_nhtsa_influenced": 15.7
+    },
+    {
+      "MFR_NAME_CLEAN": "GENERAL MOTORS",
+      "campaigns": 672,
+      "pct_nhtsa_influenced": 14.7
+    },
+    {
+      "MFR_NAME_CLEAN": "NISSAN",
+      "campaigns": 306,
+      "pct_nhtsa_influenced": 13.7
+    },
+    {
+      "MFR_NAME_CLEAN": "TOYOTA",
+      "campaigns": 337,
+      "pct_nhtsa_influenced": 8.6
+    },
+    {
+      "MFR_NAME_CLEAN": "VOLKSWAGEN",
+      "campaigns": 457,
+      "pct_nhtsa_influenced": 8.1
+    },
+    {
+      "MFR_NAME_CLEAN": "BMW",
+      "campaigns": 436,
+      "pct_nhtsa_influenced": 7.8
+    }
+  ]
+}

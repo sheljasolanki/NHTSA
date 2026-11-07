@@ -1,0 +1,48 @@
+CATEGORY|campaigns|pct_campaigns|units_affected|pct_units
+--------|---------|-------------|--------------|---------
+Uncategorized|265|26.2|21561504|14.4
+Inflator rupture / metal fragments|226|22.3|72875856|48.6
+Occupant classification / sensor|162|16.0|16152072|10.8
+Wiring / connector / clockspring|73|7.2|14568109|9.7
+Assembly / fastener|56|5.5|1555733|1.0
+Will not deploy (other cause)|54|5.3|1988348|1.3
+Inadvertent deployment|49|4.8|10733383|7.2
+Software / calibration|42|4.2|6056011|4.0
+Cushion tear / fold|42|4.2|1220909|.8
+Cover / trim / emblem|29|2.9|1646781|1.1
+Warning lamp / label / manual|14|1.4|1522043|1.0
+CATEGORY|CAMPNO|DEFECT_DESCRIPTION
+--------|------|------------------
+Assembly / fastener|22V632000|Hyundai Motor America (Hyundai) is recalling certain 2022 Elantra N and 2022-2023 Elantra vehicles.  The emblem on the cover of the driver's front air bag may not have been welded properly, which can result in the emblem
+Assembly / fastener|02V080000|ON CERTAIN PASSENGER VEHICLES, A COMPONENT IN THE INFLATOR OF SOME PASSENGER AIR BAG MODULES WAS NOT WELDED PROPERLY.
+Assembly / fastener|22V083000|Ford Motor Company (Ford) is recalling certain 2021-2022 Mustang vehicles.  An insufficient weld on the front passenger knee air bag may result in an improper air bag deployment.
+Cover / trim / emblem|13V555000|Chrysler Group LLC (Chrysler) is recalling certain model year 2013 Dodge Dart vehicles manufactured May 10, 2013, through August 24, 2013 and equipped with the Mopar 13 trim package.  In the affected vehicles, the front 
+Cover / trim / emblem|23V067000|Nissan North America, Inc. (Nissan) is recalling certain 2008-2011 Titan, Frontier, Xterra, Pathfinder, Armada, and 2008-2009 Quest vehicles.  The resin emblem on the driver's air bag cover may develop cracks and detach 
+Cover / trim / emblem|23V072000|Ford Motor Company (Ford) is recalling certain 2023 F-150 vehicles.  The instrument panel top cover on the passenger-side may prevent the air bag from deploying as intended.  As such, these vehicles fail to comply with t
+Cushion tear / fold|22V652000|Volkswagen Group of America, Inc. (Volkswagen) is recalling certain 2022 Audi S3, A3, and RS3 vehicles.  The front passenger air bag may have been folded incorrectly.
+Cushion tear / fold|22V858000|Volkswagen Group of America, Inc. (Volkswagen) is recalling certain 2021 ID4 vehicles.  The passenger air bag may be incorrectly folded.  As such, these vehicles fail to comply with the requirements of Federal Motor Vehi
+Cushion tear / fold|22V215000|Mercedes-Benz USA, LLC (MBUSA) is recalling certain 2021-2022 Maybach S580 vehicles.  Trim parts on both front seats may detach during rear air bag deployment, which can damage the air bag cushion or cause the air bag to
+Inadvertent deployment|12V439000|Volvo is recalling certain model year 2013 S60 and XC60 vehicles.  A manufacturing defect within the Supplemental Restraint System (SRS) control unit may lead to an inadvertent deployment of the seat belt pretensioner an
+Inadvertent deployment|12V527000|Chrysler is recalling certain model year 2002 and 2003 Jeep Liberty vehicles manufactured January 9, 2001, through March 28, 2003, and 2002 through 2004 Jeep Grand Cherokee vehicles manufactured February 13, 2001, throug
+Inadvertent deployment|22V124000|Mercedes-Benz USA, LLC (MBUSA) is recalling certain 2021 S580 4Matic vehicles.  The air bag control unit may be improperly secured and may result in an unintentional air bag or seat belt deployment, or an improper deploy
+Inflator rupture / metal fragments|22V471000|Volkswagen Group of America, Inc. (Audi) is recalling certain 1998 Audi A8 and 1997-1998 Audi A4 vehicles equipped with Non-Azide Driver air bag Inflators (NADI) that do not contain phase stabilized ammonium nitrate (PSA
+Inflator rupture / metal fragments|22V543000|Volkswagen Group of America, Inc. (Volkswagen) is recalling certain 2016 Audi TT Roadster, TT Coupe, S3 Sedan, R8 Coupe, A3 Sedan, A3 Etron, A3 Cabriolet, 2016 Golf Sportwagen, Golf R, Golf GTI, Golf A7, and E Golf vehic
+Inflator rupture / metal fragments|22V945000|Volkswagen Group of America, Inc. (Volkswagen) is recalling certain 2015-2016 Beetle and Beetle Convertibles vehicles.  The driver's side air bag inflator may explode due to propellant degradation occurring after long-te
+Occupant classification / sensor|22V519000|Toyota Motor Engineering & Manufacturing (Toyota) is recalling certain 2022 Rav4, Rav4 Hybrid, and Rav4 Prime vehicles.  The front passenger seat may have been assembled with interference between internal parts that may 
+Occupant classification / sensor|12V528000|Toyota is recalling certain model year 2012-2013 Scion IQ vehicles manufactured July 31, 2011, through October 12, 2012.  The cable for the Occupant Classification System (OCS) may become damaged when sliding the passeng
+Occupant classification / sensor|22V928000|Ford Motor Company (Ford) is recalling certain 2021-2022 Bronco vehicles.  The right or left side impact sensors may not be properly secured to the vehicle.
+Software / calibration|22V843000|Tesla, Inc. (Tesla) is recalling certain 2021-2023 Model X vehicles.  The restraint control module (RCM) calibration may cause the front passenger air bag to deploy incorrectly during certain low speed crashes.  As such,
+Software / calibration|22V080000|Jaguar Land Rover North America, LLC (Land Rover) is recalling certain 2020 Range Rover Evoque vehicles.  The supplemental restraint system (SRS) warning light software is programmed incorrectly, which may cause the warn
+Software / calibration|22V240000|BMW of North America, LLC (BMW) is recalling certain 2022-2023 iX xDrive40, iX XDrive50, and iX M60 vehicles.  The air bag malfunction indicator light and display message may not illuminate in the event of a problem with
+Uncategorized|12V540000|Volkswagen is recalling certain model year 2012-2013 Beetle vehicles, manufactured from February 2012, through August 2012, and equipped with leather sport seats.  If the right front passenger seat gets wet, the occupant
+Uncategorized|22V526000|Tesla, Inc. (Tesla) is recalling certain 2022 Model S vehicles.  The front bumper carrier structure may alter the vehicle's crash detection, causing the front passenger air bag to deploy incorrectly during certain low sp
+Uncategorized|12V522000|General Motors is recalling certain model year 2012 Buick Verano, Chevrolet Cruze, and Chevrolet Sonic vehicles. The driver side frontal air bag has a shorting bar which may intermittently contact the air bag terminals.
+Warning lamp / label / manual|12V432000|Honda is recalling certain model year 2012 Ridgeline vehicles manufactured on April 18, 2012.  An incorrect passenger airbag status indicator may have been installed on the vehicles causing them to fail to conform to the
+Warning lamp / label / manual|21V421000|General Motors, LLC (GM) is recalling certain 2021 Buick Envision, Cadillac CT4, CT5, Escalade, Escalade ESV, Chevrolet Tahoe, Corvette, Suburban, GMC Yukon, Yukon XL vehicles.  The communications gateway module incorrec
+Warning lamp / label / manual|01V168000|VEHICLE DESCRIPTION:  CERTAIN PASSENGER VEHICLES FAIL TO COMPLY WITH REQUIREMENTS OF FMVSS NO. 208, "OCCUPANT CRASH PROTECTION."  THE AIR BAG ALERT LABELS MAY NOT BE PERMANENTLY AFFIXED AS REQUIRED BY THIS STANDARD.
+Will not deploy (other cause)|12V488000|Ford is recalling certain model year 2011-2013 Fiesta vehicles, manufactured from November 3, 2009 through September 21, 2012. The vehicles fail to comply with Federal Motor Vehicle Safety Standard (FMVSS) No. 208, "Occu
+Will not deploy (other cause)|12V492000|Mercedes-Benz is recalling certain model year 2012 E350 and E550 Coupe vehicles, manufactured April 2, 2012, through June 29, 2012.  Improper stitching of the right side window curtain air bag may cause it to not deploy 
+Will not deploy (other cause)|22V594000|Ford Motor Company (Ford) is recalling certain 2022 Maverick vehicles.  The side-curtain air bags may not deploy properly.  As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Sta
+Wiring / connector / clockspring|22V466000|Mercedes-Benz, LLC (MBUSA) is recalling certain 2020 Mercedes-Benz GLS 450 and GLS 580 vehicles.  The front air bag wiring harness may be routed incorrectly, which can cause the air bag not to deploy properly.  As such, 
+Wiring / connector / clockspring|12V079000|NISSAN IS RECALLING CERTAIN MODEL YEAR 2003-2005 INFINITI Q45 VEHICLES.  A WIRING CONNECTOR FOR THE SEAT MOUNTED AIRBAG MAY EXPERIENCE INCREASED ELECTRICAL RESISTANCE, RESULTING IN THE NON-DEPLOYMENT OF THE SIDE AIR BAGS
+Wiring / connector / clockspring|02V099000|ON CERTAIN SPORT UTILITY VEHICLES, THE PASSENGER AIR BAG WIRING HARNESS WAS IMPROPERLY MANUFACTURED.

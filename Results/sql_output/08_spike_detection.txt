@@ -1,0 +1,14 @@
+spike_context|month_type|months|months_followed_by_recall|pct_recall_next_6m
+-------------|----------|------|-------------------------|------------------
+After a recent recall|Normal month|8493|4747|55.89
+After a recent recall|Spike month|344|201|58.43
+Organic (no recent recall)|Normal month|33710|9098|26.99
+Organic (no recent recall)|Spike month|1096|266|24.27
+context|months|pct_spike_months
+-------|------|----------------
+Recall in this or previous 2 months|8837|3.89
+No recent recall|34806|3.15
+month_type|months|pct_spike_in_prior_6m
+----------|------|---------------------
+Months with a recall announcement|3548|15.08
+All eligible months (baseline)|43643|15.34

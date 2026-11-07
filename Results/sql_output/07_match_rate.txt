@@ -1,0 +1,30 @@
+complaints|pct_recalled_1y|pct_recalled_2y|pct_recalled_5y
+----------|---------------|---------------|---------------
+1366035|5.38|8.04|12.26
+COMPONENT_CLEAN|complaints|pct_recalled_1y|pct_recalled_2y|pct_recalled_5y
+---------------|----------|---------------|---------------|---------------
+AIR BAGS|126900|19.99|29.23|44.65
+STEERING|103068|6.26|8.90|14.46
+ELECTRICAL SYSTEM|164818|5.62|8.42|13.73
+POWER TRAIN|144408|4.90|7.86|11.91
+SUSPENSION|63613|5.31|7.80|10.53
+VEHICLE SPEED CONTROL|63310|3.43|5.70|8.38
+ENGINE|178337|3.27|5.26|8.00
+SERVICE BRAKES, HYDRAULIC|58323|2.87|4.07|7.05
+STRUCTURE|72937|3.27|4.81|6.44
+SERVICE BRAKES|49907|2.33|2.98|4.80
+MFR_NAME_CLEAN|complaints|pct_recalled_1y|pct_recalled_2y|pct_recalled_5y
+--------------|----------|---------------|---------------|---------------
+BMW|32937|5.12|8.50|19.17
+HONDA|82119|8.37|10.63|14.06
+KIA|30534|6.03|10.43|14.00
+CHRYSLER|263574|6.54|9.39|13.25
+VOLKSWAGEN|42177|6.19|11.02|13.25
+GENERAL MOTORS|302096|4.61|6.91|12.22
+TOYOTA|115531|4.83|8.05|12.04
+HYUNDAI|41038|4.80|7.79|11.92
+FORD|272356|4.71|7.10|11.36
+NISSAN|75814|4.33|5.56|6.94
+campaigns|with_prior_complaint|pct_with_prior_complaint|pct_with_10plus
+---------|--------------------|------------------------|---------------
+6418|3246|50.58|25.33

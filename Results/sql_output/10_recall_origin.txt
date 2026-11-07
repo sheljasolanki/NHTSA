@@ -1,0 +1,20 @@
+RECALL_ORIGIN|campaigns|pct_of_campaigns|units_affected|pct_of_units|pct_with_prior_complaint|pct_do_not_drive
+-------------|---------|----------------|--------------|------------|------------------------|----------------
+Manufacturer-initiated|5528|86.1|343297220|59.2|45.3|1.05
+NHTSA-influenced|890|13.9|236713791|40.8|83.4|5.51
+RECALL_ORIGIN|campaigns|median_lag_first|median_prior_complaints|median_units_affected
+-------------|---------|----------------|-----------------------|---------------------
+Manufacturer-initiated|2504|568.0|6.0|19126.0
+NHTSA-influenced|742|1772.5|51.0|94597.0
+MFR_NAME_CLEAN|campaigns|pct_nhtsa_influenced
+--------------|---------|--------------------
+HYUNDAI|265|21.1
+FORD|979|20.7
+HONDA|323|18.3
+KIA|187|16.6
+CHRYSLER|732|15.7
+GENERAL MOTORS|672|14.7
+NISSAN|306|13.7
+TOYOTA|337|8.6
+VOLKSWAGEN|457|8.1
+BMW|436|7.8

@@ -1,0 +1,10 @@
+table,step,rows_before,rows_after,rows_removed,note
+complaints,vehicle records only (PROD_TYPE = V),2234970,2162988,71982,
+recalls,vehicle recalls only (RCLTYPECD = V),326100,285005,41095,
+complaints,"valid, non-future complaint date",2162988,2162988,0,
+recalls,"valid, non-future recall date",285005,285005,0,
+complaints,make maps to a passenger-vehicle OEM,2162988,2108157,54831,
+recalls,make maps to a passenger-vehicle OEM,285005,149322,135683,
+complaints,drop blank / free-text component,2108157,2107601,556,
+complaints,one row per complaint x vehicle x component,2107601,2042264,65337,
+recalls,one row per campaign x vehicle x component,149322,59560,89762,

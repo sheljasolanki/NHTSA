@@ -1,0 +1,19 @@
+SEVERITY_TIER|complaints|pct_recalled_within_2y|median_days_to_recall|recalled_complaints
+-------------|----------|----------------------|---------------------|-------------------
+1 Fatal|2707|6.32|522.0|280
+2 Injury|61653|7.72|603.0|8614
+3 Crash, no injury|52398|7.02|522.0|6146
+4 Fire, no crash|34261|8.58|439.0|4677
+5 No crash, fire or injury|1429613|8.25|512.0|193041
+COMPONENT_CLEAN|crash_complaints|pct_recalled_2y_crash|pct_recalled_2y_no_crash
+---------------|----------------|---------------------|------------------------
+AIR BAGS|31262|12.06|31.98
+ELECTRICAL SYSTEM|4202|11.68|9.37
+ENGINE|3822|4.79|5.58
+POWER TRAIN|6276|11.50|8.14
+SERVICE BRAKES|7160|1.90|2.37
+SERVICE BRAKES, HYDRAULIC|6123|4.80|4.33
+STEERING|6438|7.39|9.61
+STRUCTURE|4216|3.08|6.05
+SUSPENSION|3142|8.31|7.24
+VEHICLE SPEED CONTROL|11733|4.00|5.42
